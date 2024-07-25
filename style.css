@@ -1,0 +1,102 @@
+/* Custom CSS for SAF WEB DEVELOPER */
+
+/* Navbar */
+.navbar {
+    background: #003366; /* Dark blue background for navbar */
+    backdrop-filter: blur(10px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f2e8cf; /* Set navigation link color to light cream */
+}
+
+.navbar-light .navbar-brand {
+    color: #f2e8cf; /* Set brand/logo color to light cream */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f9c74f; /* Optional: Set hover color for nav links */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23f2e8cf"%3e%3cpath stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /%3e%3c/svg%3e');
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://i.ibb.co/vJ2RZcQ/which-development-job-is-right-for-you.jpg') no-repeat center center/cover;
+    color: #f2e8cf; /* Light cream color for text */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #f2e8cf; /* Light cream color for text */
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: #f2e8cf; /* Light cream color for text */
+}
+
+.btn-primary {
+    background: #f9c74f; /* Yellow background for buttons */
+    border: none;
+}
+
+/* Services Section */
+.services-section {
+    background: #003366; /* Dark blue background */
+    color: #f2e8cf; /* Light cream text color */
+}
+
+.service-box {
+    padding: 20px;
+    background: #002244; /* Darker blue for service boxes */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* About Us Section */
+.about-section {
+    background: #003366; /* Dark blue background */
+    color: #f2e8cf; /* Light cream text color */
+}
+
+/* Contact Section */
+.contact-section {
+    background: #003366; /* Dark blue background */
+    color: #f2e8cf; /* Light cream text color */
+}
+
+/* Footer */
+.footer {
+    background: #002244; /* Darker blue for footer */
+    color: #f2e8cf; /* Light cream text color */
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Smooth scrolling for all links */
+html {
+    scroll-behavior: smooth;
+}
+/* Custom CSS for SAF WEB DEVELOPER */
+
+/* Existing styles ... */
+
+/* Bottom Left Image */
+.bottom-left-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
